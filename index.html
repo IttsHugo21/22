@@ -35,7 +35,6 @@
 
         <!-- Lista de Servicios -->
         <div style="margin-bottom: 40px;">
-            <!-- Servicio 1 -->
             <div style="background-color: #111114; padding: 25px; border-radius: 8px; margin-bottom: 20px; border-left: 5px solid #3b82f6;">
                 <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
                     <div style="flex: 1; min-width: 250px;">
@@ -46,7 +45,6 @@
                 </div>
             </div>
 
-            <!-- Servicio 2 -->
             <div style="background-color: #111114; padding: 25px; border-radius: 8px; margin-bottom: 20px; border-left: 5px solid #ef4444;">
                 <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
                     <div style="flex: 1; min-width: 250px;">
@@ -57,7 +55,6 @@
                 </div>
             </div>
 
-            <!-- Servicio 3 -->
             <div style="background-color: #111114; padding: 25px; border-radius: 8px; margin-bottom: 20px; border-left: 5px solid #3b82f6;">
                 <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
                     <div style="flex: 1; min-width: 250px;">
@@ -71,11 +68,9 @@
     </div>
 
     <!-- Sección de Información y Horario -->
-    <div style="background-color: #0d0d10; padding: 80px 20px;">
+    <div id="contacto" style="background-color: #0d0d10; padding: 80px 20px;">
         <div style="max-width: 1100px; margin: 0 auto;">
             <div style="display: flex; flex-wrap: wrap; gap: 40px;">
-                
-                <!-- Columna Ubicación -->
                 <div style="flex: 1; min-width: 300px;">
                     <h2 style="font-size: 28px; color: #ffffff; text-transform: uppercase; margin-bottom: 25px;">Ubicación</h2>
                     <p style="margin-bottom: 20px;">Encuéntranos en nuestra zona exclusiva para caballeros:</p>
@@ -92,7 +87,6 @@
                     </a>
                 </div>
 
-                <!-- Columna Horario -->
                 <div style="flex: 1; min-width: 300px; background-color: #111114; padding: 30px; border-radius: 8px;">
                     <h3 style="font-size: 20px; color: #ffffff; text-transform: uppercase; margin-bottom: 20px; text-align: center;">Horario de Apertura</h3>
                     <ul style="list-style: none; padding: 0; margin: 0;">
@@ -109,26 +103,46 @@
                             <span style="font-weight: 700;">Cerrado</span>
                         </li>
                     </ul>
-                    <p style="margin-top: 25px; font-size: 12px; text-align: center; color: #71717a; text-transform: uppercase; letter-spacing: 1px;">
-                        * Imprescindible reserva previa vía WhatsApp
-                    </p>
                 </div>
-
             </div>
         </div>
     </div>
 
-    <!-- Footer con Enlaces Legales -->
-    <div style="padding: 50px 20px; text-align: center; background-color: #09090b; border-top: 1px solid #1f1f23;">
-        <h2 style="font-size: 20px; font-weight: 800; color: #ffffff; text-transform: uppercase; margin-bottom: 15px;">
+    <!-- SECCIONES LEGALES (Ocultas por defecto o para copiar en páginas nuevas) -->
+    <div id="legal-sections" style="background-color: #09090b; padding: 60px 20px; border-top: 2px solid #1f1f23;">
+        <div style="max-width: 900px; margin: 0 auto; font-size: 14px; color: #a1a1aa;">
+            
+            <!-- Aviso Legal -->
+            <div id="aviso-legal" style="margin-bottom: 60px;">
+                <h2 style="color: #ffffff; text-transform: uppercase; font-size: 20px; border-bottom: 1px solid #3b82f6; padding-bottom: 10px; margin-bottom: 20px;">Aviso Legal</h2>
+                <p>En cumplimiento del artículo 10 de la Ley 34/2002, se informa que <strong>Hugo Pérez Barbershop</strong> es una marca comercial gestionada por Hugo Pérez, con domicilio en Calle Mayor, Zaragoza. NIF: [TU_NIF]. Contacto: +34 614 227 121.</p>
+                <p style="margin-top: 10px;">El acceso al sitio web atribuye la condición de Usuario e implica la aceptación de las condiciones de uso vigentes.</p>
+            </div>
+
+            <!-- Política de Privacidad -->
+            <div id="politica-privacidad" style="margin-bottom: 60px;">
+                <h2 style="color: #ffffff; text-transform: uppercase; font-size: 20px; border-bottom: 1px solid #ef4444; padding-bottom: 10px; margin-bottom: 20px;">Política de Privacidad</h2>
+                <p>De acuerdo con el <strong>RGPD</strong>, informamos que los datos recogidos vía WhatsApp se utilizan exclusivamente para la gestión de citas y consultas. No se cederán datos a terceros salvo obligación legal. Tienes derecho a acceder, rectificar o suprimir tus datos contactando directamente con nosotros.</p>
+            </div>
+
+            <!-- Política de Cookies -->
+            <div id="politica-cookies">
+                <h2 style="color: #ffffff; text-transform: uppercase; font-size: 20px; border-bottom: 1px solid #3b82f6; padding-bottom: 10px; margin-bottom: 20px;">Política de Cookies</h2>
+                <p>Este sitio web utiliza cookies técnicas necesarias para el funcionamiento de WordPress. No se utilizan cookies de seguimiento de terceros sin consentimiento previo.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Final -->
+    <div style="padding: 50px 20px; text-align: center; background-color: #050507; border-top: 1px solid #1f1f23;">
+        <h2 style="font-size: 18px; font-weight: 800; color: #ffffff; text-transform: uppercase; margin-bottom: 15px;">
             HUGO PÉREZ<span style="color: #ef4444;">.</span>
         </h2>
         
-        <!-- Enlaces Legales -->
         <div style="margin-bottom: 20px;">
-            <a href="/aviso-legal" style="color: #a1a1aa; text-decoration: none; font-size: 11px; text-transform: uppercase; margin: 0 10px; letter-spacing: 1px;">Aviso Legal</a>
-            <a href="/politica-de-privacidad" style="color: #a1a1aa; text-decoration: none; font-size: 11px; text-transform: uppercase; margin: 0 10px; letter-spacing: 1px;">Privacidad</a>
-            <a href="/politica-de-cookies" style="color: #a1a1aa; text-decoration: none; font-size: 11px; text-transform: uppercase; margin: 0 10px; letter-spacing: 1px;">Cookies</a>
+            <a href="#aviso-legal" style="color: #71717a; text-decoration: none; font-size: 11px; text-transform: uppercase; margin: 0 10px; letter-spacing: 1px;">Aviso Legal</a>
+            <a href="#politica-privacidad" style="color: #71717a; text-decoration: none; font-size: 11px; text-transform: uppercase; margin: 0 10px; letter-spacing: 1px;">Privacidad</a>
+            <a href="#politica-cookies" style="color: #71717a; text-decoration: none; font-size: 11px; text-transform: uppercase; margin: 0 10px; letter-spacing: 1px;">Cookies</a>
         </div>
 
         <p style="font-size: 10px; color: #3f3f46; text-transform: uppercase; letter-spacing: 2px; margin: 0;">
